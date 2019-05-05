@@ -6,9 +6,9 @@ import {
 } from 'semantic-ui-react';
 
 import TabBarContainer from './tabs/TabBarContainer';
+import UnitInfo from './unitInfo/UnitInfo';
 import '../styles/App.css';
 
-const UnitInfo = () => <div>Unit Info content</div>;
 const Pilots = () => <div>Pilots content</div>;
 const Mechs = () => <div>Mechs content</div>;
 const UnitOrganization = () => <div>Unit Organization content</div>;
