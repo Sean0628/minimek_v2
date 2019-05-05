@@ -6,7 +6,7 @@ export default class TabBarContainer extends Component {
   constructor(props) {
     super(props);
 
-    const { tabs = [{ name : null }]} = props;
+    const {tabs = [{ name : null }]} = props;
 
     const firstTab = tabs[0];
 
@@ -16,7 +16,7 @@ export default class TabBarContainer extends Component {
   }
 
   onTabClick = name => {
-    this.setState({ currentTab : name } );
+    this.setState({ currentTab : name });
   }
 
   render() {

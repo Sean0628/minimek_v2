@@ -5,25 +5,29 @@ import {
   Menu
 } from 'semantic-ui-react';
 
-import SampleComponent from '../components/SampleComponent';
+import TabBarContainer from './tabs/TabBarContainer';
 import '../styles/App.css';
 
-const App = () => {
-  return (
-    <div className='App'>
-      <div className='App-header'>
-        <Header inverted as='h1'>Project Mini-Mek</Header>
+class App extends Component {
+  render() {
+    const tabs = [
+      { name : 'unitInfo', label : 'Unit Info' },
+      { name : 'pilots', label : 'Pilots' },
+      { name : 'mechs', label : 'Mechs' },
+      { name : 'unitOrganaization', label : 'Unit Organaization' },
+    ];
+
+    return (
+      <div className='App'>
+        <div className='App-header'>
+          <Header inverted as='h1'>Project Mini-Mek</Header>
+        </div>
+        <Container>
+          <TabBarContainer tabs={tabs} size='massive' />
+        </Container>
       </div>
-      <Container>
-        <Menu tabular size='massive'>
-          <Menu.Item name='unitInfo' active={true}>Unit Info</Menu.Item>
-          <Menu.Item name='pilots' active={false}>Pilots</Menu.Item>
-          <Menu.Item name='mechs' active={false}>Mechs</Menu.Item>
-          <Menu.Item name='unitOrganization' active={false}>Unit Organaization</Menu.Item>
-        </Menu>
-      </Container>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

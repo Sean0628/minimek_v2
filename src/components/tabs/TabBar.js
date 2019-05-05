@@ -4,7 +4,7 @@ import { Menu } from 'semantic-ui-react';
 import Tab from './Tab';
 
 const TabBar = props => {
-  const { tabs, currentTabs, onTabClick, ...otherProps } = props;
+  const { tabs, currentTab, onTabClick, ...otherProps } = props;
 
   const tabItems = tabs.map(tabInfo => {
     const { name, label } = tabInfo;
