@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { Header } from 'semantic-ui-react';
+
 import SampleComponent from '../components/SampleComponent';
+import '../styles/App.css';
 
 const App = () => {
   return (
-    <div>
-      <div>
-        <h2>Project Mini-Mek</h2>
+    <div className='App'>
+      <div className='App-header'>
+        <Header inverted as='h1'>Project Mini-Mek</Header>
       </div>
-      <SampleComponent />
     </div>
   );
 }
