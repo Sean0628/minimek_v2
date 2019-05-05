@@ -7,9 +7,9 @@ import {
 
 import TabBarContainer from './tabs/TabBarContainer';
 import UnitInfo from './unitInfo/UnitInfo';
+import Pilots from './pilots/Pilots';
 import '../styles/App.css';
 
-const Pilots = () => <div>Pilots content</div>;
 const Mechs = () => <div>Mechs content</div>;
 const UnitOrganization = () => <div>Unit Organization content</div>;
 
