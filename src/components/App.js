@@ -5,7 +5,7 @@ import {
   Menu
 } from 'semantic-ui-react';
 
-import TabBarContainer from './tabs/TabBarContainer';
+import TabBarContainer from './tabs/TabBar';
 import UnitInfo from './unitInfo/UnitInfo';
 import Pilots from './pilots/Pilots';
 import Mechs from './mechs/Mechs';
