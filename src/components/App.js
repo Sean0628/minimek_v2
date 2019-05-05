@@ -8,9 +8,9 @@ import {
 import TabBarContainer from './tabs/TabBarContainer';
 import UnitInfo from './unitInfo/UnitInfo';
 import Pilots from './pilots/Pilots';
+import Mechs from './mechs/Mechs';
 import '../styles/App.css';
 
-const Mechs = () => <div>Mechs content</div>;
 const UnitOrganization = () => <div>Unit Organization content</div>;
 
 class App extends Component {
