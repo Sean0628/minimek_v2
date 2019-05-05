@@ -9,9 +9,8 @@ import TabBarContainer from './tabs/TabBarContainer';
 import UnitInfo from './unitInfo/UnitInfo';
 import Pilots from './pilots/Pilots';
 import Mechs from './mechs/Mechs';
+import UnitOrganization from './UnitOrganization/UnitOrganization';
 import '../styles/App.css';
-
-const UnitOrganization = () => <div>Unit Organization content</div>;
 
 class App extends Component {
   render() {
