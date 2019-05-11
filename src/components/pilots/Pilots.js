@@ -6,7 +6,7 @@ import {
 } from 'semantic-ui-react';
 
 import PilotsList from './PilotsList';
-import PilotDetails from './PilotDetail';
+import PilotDetails from './PilotDetails';
 
 const pilots = [
   {
